@@ -59,25 +59,25 @@
         <script src="../www.google.com/recaptcha/apifef7.js?hl=en" async defer></script>
     </head>
     <body>
-    <div class="c-transitions-rofl_wrapper">
-        <figure class="c-transitions-rofl">
-            <div class="c-transitions-rofl_layer">
-                <img src="{% static 'img/rofl/5.svg' %}" alt="rofl">
-            </div>
-            <div class="c-transitions-rofl_layer">
-                <img src="{% static 'img/rofl/4.svg' %}" alt="rofl">
-            </div>
-            <div class="c-transitions-rofl_layer">
-                <img src="{% static 'img/rofl/3.svg' %}" alt="rofl">
-            </div>
-            <div class="c-transitions-rofl_layer">
-                <img src="{% static 'img/rofl/2.svg' %}" alt="rofl">
-            </div>
-            <div class="c-transitions-rofl_layer">
-                <img src="{% static 'img/rofl/1.svg' %}" alt="rofl">
-            </div>
-        </figure>
-    </div>
+      <div class="c-transitions-rofl_wrapper">
+          <figure class="c-transitions-rofl">
+              <div class="c-transitions-rofl_layer">
+                  <img src="assets/images/rofl/5.svg" alt="rofl">
+              </div>
+              <div class="c-transitions-rofl_layer">
+                  <img src="assets/images/rofl/4.svg" alt="rofl">
+              </div>
+              <div class="c-transitions-rofl_layer">
+                  <img src="assets/images/rofl/3.svg" alt="rofl">
+              </div>
+              <div class="c-transitions-rofl_layer">
+                  <img src="assets/images/rofl/2.svg" alt="rofl">
+              </div>
+              <div class="c-transitions-rofl_layer">
+                  <img src="assets/images/rofl/1.svg" alt="rofl">
+              </div>
+          </figure>
+      </div>
     </div>
     <div class="c-transitions-details" data-module="LogoLoader">
 
@@ -129,7 +129,7 @@
                 </div>
                 <button class="o-button-round -big c-popup_close js-popup-close" type="button">
                     <svg role="img">
-                        <use href="{% static 'img/sprite.svg' %}"></use>
+                        <use href="assets/images/sprite.svg#close"></use>
                     </svg>
                 </button>
             </div>
@@ -239,10 +239,10 @@
                                 <a class="c-nav_link is-current" href="index.html">Elicit</a>
                             </li>
                             <li class="c-nav_item">
-                                <a class="c-nav_link" href="{% url 'events' %}" target="_blank">Events</a>
+                                <a class="c-nav_link" href="events.html" target="_blank">Events</a>
                             </li>
                             <li class="c-nav_item">
-                                <a class="c-nav_link" href="{% url 'event_reg' %}" target="_blank">Registrations</a>
+                                <a class="c-nav_link" href="registrations.html" target="_blank">Registrations</a>
                             </li>
                             <!-- <li class="c-nav_item">
                                 <a class="c-nav_link" href="{% url 'working_committe' %}">Working Commitee</a>
@@ -354,7 +354,7 @@
                             <div class="o-container -full">
                                 <div class="c-logos-slider_info">
                                     <p class="c-logos-slider_info_line u-small"></p>
-                                    <a href="{% url 'event_hackathon' %}" class="c-logos-slider_info_title" target="_blank">
+                                    <a href="events/hackathon.html" class="c-logos-slider_info_title" target="_blank">
                                         <span class="c-logos-slider_info_line">Amazing</span> <br>
                                         <span class="c-logos-slider_info_line">Events</span>
                                     </a>
@@ -365,23 +365,23 @@
                             <div class="o-container -full">
                                 <figure class="c-cbc-logo">
                                     <div class="c-cbc-logo_layer">
-                                        <img src="{% static 'img/cbc/4.svg' %}" alt="">
+                                        <img src="assets/images/cbc/4.svg" alt="">
                                     </div>
                                     <div class="c-cbc-logo_layer">
-                                        <img src="{% static 'img/cbc/3.svg' %}" alt="">
+                                        <img src="assets/images/cbc/3.svg" alt="">
                                     </div>
                                     <div class="c-cbc-logo_layer">
-                                        <img src="{% static 'img/cbc/2.svg' %}" alt="">
+                                        <img src="assets/images/cbc/2.svg" alt="">
                                     </div>
                                     <div class="c-cbc-logo_layer">
-                                        <img src="{% static 'img/cbc/1.svg' %}" alt="">
+                                        <img src="assets/images/cbc/1.svg" alt="">
                                     </div>
                                 </figure>
                                 <div class="c-logos-slider_info">
-                                    <p class="c-logos-slider_info_line u-small">With</p>
-                                    <a href="{% url 'event_codeathon' %}" class="c-logos-slider_info_title" target="_blank">
-                                        <span class="c-logos-slider_info_line">Great</span> <br>
-                                        <span class="c-logos-slider_info_line">Prizes</span>
+                                    <p class="c-logos-slider_info_line u-small">Featuring</p>
+                                    <a href="designers.html" class="c-logos-slider_info_title">
+                                        <span class="c-logos-slider_info_line">Burton</span> <br>
+                                        <span class="c-logos-slider_info_line">Kramer</span>
                                     </a>
                                 </div>
                             </div>
@@ -393,7 +393,7 @@
                             <div class="o-container -full">
                                 <div class="c-logos-slider_info">
                                     <p class="c-logos-slider_info_line u-small">And</p>
-                                    <a href="{% url 'events' %}" class="c-logos-slider_info_title" target="_blank">
+                                    <a href="events.html" class="c-logos-slider_info_title" target="_blank">
                                         <span class="c-logos-slider_info_line">Many More</span> <br>
                                         <span class="c-logos-slider_info_line">Activities</span>
                                     </a>
@@ -419,7 +419,7 @@
                     <div class="c-action-watch-background">
                         <div class="o-background">
                             <video class="js-action-watch-video o-background_video"
-                                   src="{% static 'videos/trailer-cut.mp4' %}" loop
+                                   src="assets/videos/trailer-cut.mp4" loop
                                    muted></video>
                         </div>
                         <div class="o-layout -full">
@@ -511,7 +511,7 @@
                                         >
                                             <div class="c-content-embed_inner o-embed js-embed-inner">
                                                 <figure class="c-content-embed_background js-background"
-                                                        style="background-image:url({% static 'img/video.jpg' %})"></figure>
+                                                        style="background-image:url('assets/images/video.jpg')"></figure>
 
                                                 <button class="o-button-round -big c-content-embed_button js-button">
                                                     <svg role="img">
@@ -528,7 +528,7 @@
                         <article class="c-screening_dates -small">
                             <h2 class="c-screening_heading o-h">Take part in Events</h2>
                             <ol class="c-screening_list">
-                                <li href="{% url 'event_hackathon' %}" class="c-screening_date js-animate">
+                                <li href="events/hackathon.html" class="c-screening_date js-animate">
                                     <a class="c-screening_date_link o-layout"
                                        target="_blank" rel="noopener noreferer">
                                 <span class="c-screening_date_ribbon">
@@ -567,7 +567,7 @@
                                     </a>
                                 </li>
                                 <li class="c-screening_date js-animate">
-                                    <a href="{% url 'event_codeathon' %}" class="c-screening_date_link o-layout"
+                                    <a href="events/codeathon.html" class="c-screening_date_link o-layout"
                                        target="_blank"
                                        rel="noopener noreferer">
                                         <div class="c-screening_date_col -date o-layout_item u-1/4@from-small">
@@ -603,7 +603,7 @@
                                     </a>
                                 </li>
                                 <li class="c-screening_date js-animate">
-                                    <a  href="{% url 'event_findmucked' %}" class="c-screening_date_link o-layout"
+                                    <a  href="events/findmucked.html" class="c-screening_date_link o-layout"
                                        target="_blank" rel="noopener noreferer">
                                         <div class="c-screening_date_col -date o-layout_item u-1/4@from-small">
                                             <time class="c-screening_date_value u-anim-fade-scroll-parent">
@@ -639,7 +639,7 @@
                                 </li>
                             </ol>
                             <div class="c-screening_date js-animate">
-                                <a class="c-screening_date_link -more o-layout" href="{% url 'events' %}">
+                                <a class="c-screening_date_link -more o-layout" href="events.html">
                                     <div class="c-screening_date_col -date o-layout_item u-1/4@from-small">
                                         <p class="c-screening_date_value u-anim-fade-scroll-parent">
                                 <span class="c-screening_date_text">
@@ -702,20 +702,7 @@
                 <span class="c-watch_arrow">
                     <svg role="img"><use href="img/sprite.svg#arrow-long-down"></use></svg>
                 </span>
-            <a href="{% url 'events' %}" class="c-watch_title_wrapper js-animate" data-repeat>
-                    <span class="c-watch_title -main">
-                        Watch
-                    </span>
-                <span class="c-watch_title -delayed js-animate" data-speed="3.1" data-position="middle">
-                        Watch
-                    </span>
-                <span class="c-watch_title -delayed js-animate" data-speed="2.3" data-position="middle">
-                        Watch
-                    </span>
-                <span class="c-watch_title -delayed js-animate" data-speed="1.3" data-position="middle">
-                        Watch
-                    </span>
-            </a>
+
 
             <div class="c-watch_footer">
                 <div class="o-layout u-text-left">
@@ -835,7 +822,7 @@
     </div>
     </div>
 
-  
+
 
         <script src="../ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/scripts/jquery-3.0.0.min.js"><\/script>')</script>
