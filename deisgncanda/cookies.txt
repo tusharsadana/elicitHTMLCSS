@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.designcanada.com	TRUE	/	FALSE	1999999999	__cfduid	d8930f26310d367ae76569d08f849ea461531084583
+
