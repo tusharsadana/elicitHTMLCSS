@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Codeathon</title>
+    <title>Gamer's Asylum</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -42,40 +42,43 @@
     <br>
     <div class="container">
         <div class="col-md-6">
-            <h2 style="font-weight:bold;font-size:72px;">CODEATHON</h2>
+            <h2 style="font-weight:bold;font-size:72px;">GAMERS ASYLUM</h2>
             <a href="../registration.html" type="button" class="btn btn-danger" style="float:right;" name="button">Register Now!</a>
         </div>
         <div class="container">
-            <div class="col-md-3">
-                <h6>Team Members: 3 - 5</h6>
-                <h6>Fee: Rs. 100 per member</h6>
+            <div class="col-md-6">
+                <h6>Team Members: as per the game</h6>
+                <h6>Fee: <br>
+                  FIFA: Rs. 100 per participant <br>
+                        CSGO and Rainbow Six Seige: Rs. 200 per team <br>
+                        Road Redemption: Rs. 50 per participant
+                </h6>
 
             </div>
         </div>
 
         <div class="container" style="margin-top:4vh;">
-            <p class="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-            <p class="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p class="justify">One of the biggest e-Sports competition in Jaipur which brings you the following games to be
+battled upon:</p>
+            <p class="justify"><li>FIFA 1V1</li>
+<li>CSGO 5V5</li>
+<li>RAINBOW SIX SEIGE 5V5</li>
+<li>ROAD REDEMPTION 1V1</li></p>
 
         </div>
 
         <div class="container" style="margin-top:4vh;">
             <h3>Rules</h3>
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>You can bring your own laptops with required gears and equipments</li>
+                <li>If you don’t bring you laptop you will be provided with the basic laptop given by the
+college</li>
+                <li>Make sure that the games you want to participate in, are properly installed in your
+laptop (if it doesn’t work on the first go, you will be given two options- either to use the
+college provided laptop or get disqualified). </li>
+                <li>Bring your own earphones or headsets as they won’t be provided.</li>
+<li>For games having more than one player you can either get your team or you will be
+paired up with teams or people falling short in number.</li>
 
             </ol>
         </div>
@@ -83,10 +86,7 @@
         <div class="container" style="margin-top:4vh;">
             <h3>Judgement Criteria</h3>
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                Knockouts based on random fixing.
 
             </ol>
         </div>

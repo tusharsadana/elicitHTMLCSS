@@ -47,8 +47,8 @@
         </div>
         <div class="container">
             <div class="col-md-3">
-                <h6>Team Members: 3 - 5</h6>
-                <h6>Fee: Rs. 100 per member</h6>
+                <h6>Team Members: 1 - 3</h6>
+                <h6>Fee: Rs. 150 per team</h6>
 
             </div>
         </div>

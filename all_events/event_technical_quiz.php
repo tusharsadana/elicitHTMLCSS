@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Gamer's Asylum</title>
+    <title>Technical Quiz</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -42,50 +42,41 @@
     <br>
     <div class="container">
         <div class="col-md-6">
-            <h2 style="font-weight:bold;font-size:72px;">GAMERS ASYLUM</h2>
+            <h2 style="font-weight:bold;font-size:72px;">Technical Quiz</h2>
             <a href="../registration.html" type="button" class="btn btn-danger" style="float:right;" name="button">Register Now!</a>
         </div>
         <div class="container">
             <div class="col-md-3">
-                <h6>Team Members: 3 - 5</h6>
-                <h6>Fee: Rs. 100 per member</h6>
+                <h6>Team Members: 1 - 3</h6>
+                <h6>Fee: Rs. 100 per team</h6>
 
             </div>
         </div>
 
         <div class="container" style="margin-top:4vh;">
-            <p class="justify">One of the biggest e-Sports competition in Jaipur which brings you the following games to be
-battled upon:</p>
-            <p class="justify"><li>FIFA 1V1</li>
-<li>CSGO 5V5</li>
-<li>RAINBOW SIX SEIGE 5V5</li>
-<li>ROAD REDEMPTION 1V1</li></p>
+            <p class="justify">A quiz for all the tech heads and geeks out there to showcase their knowledge on technical
+topics along with some basic output questions</p>
 
         </div>
 
         <div class="container" style="margin-top:4vh;">
             <h3>Rules</h3>
             <ol>
-                <li>You can bring your own laptops with required gears and equipments</li>
-                <li>If you don’t bring you laptop you will be provided with the basic laptop given by the
-college</li>
-                <li>Make sure that the games you want to participate in, are properly installed in your
-laptop (if it doesn’t work on the first go, you will be given two options- either to use the
-college provided laptop or get disqualified). </li>
-                <li>Bring your own earphones or headsets as they won’t be provided.</li>
-<li>For games having more than one player you can either get your team or you will be
-paired up with teams or people falling short in number.</li>
+                <li>Questions can be asked on a variety of technical topics</li>
+                <li>All team members should be present at the event. Absence of any team member would
+result in disqualification of the team.</li>
+                <li>Participants won’t be allowed to carry any electronic devices with them.</li>
+<li>Teams can be disqualified from the competition at the organizers' will. Reasons might
+include breaking the Competition Rules, breaking the discipline , or other unsporting
+behaviour.</li>
+
+
 
             </ol>
+
         </div>
 
-        <div class="container" style="margin-top:4vh;">
-            <h3>Judgement Criteria</h3>
-            <ol>
-                Knockouts based on random fixing.
 
-            </ol>
-        </div>
 
 
     </div>

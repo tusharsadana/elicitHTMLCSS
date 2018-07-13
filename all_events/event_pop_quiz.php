@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Technical Quiz</title>
+    <title>Pop Quiz</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -42,42 +42,37 @@
     <br>
     <div class="container">
         <div class="col-md-6">
-            <h2 style="font-weight:bold;font-size:72px;">Technical Quiz</h2>
+            <h2 style="font-weight:bold;font-size:72px;">Pop Quiz</h2>
             <a href="../registration.html" type="button" class="btn btn-danger" style="float:right;" name="button">Register Now!</a>
         </div>
         <div class="container">
             <div class="col-md-3">
-                <h6>Team Members: 3 - 5</h6>
-                <h6>Fee: Rs. 100 per member</h6>
+                <h6>Team Members: 1 - 3</h6>
+                <h6>Fee: Rs. 100 per team</h6>
 
             </div>
         </div>
 
         <div class="container" style="margin-top:4vh;">
-            <p class="justify">A quiz for all the tech heads and geeks out there to showcase their knowledge on technical
-topics along with some basic output questions</p>
+            <p class="justify">A quiz for today's pop culture centric generation, this quiz will check the participants’ knowledge on today's pop culture icons along with a bit of general knowledge thrown in. </p>
 
         </div>
 
         <div class="container" style="margin-top:4vh;">
             <h3>Rules</h3>
             <ol>
-                <li>Teams must be of 2 members each.</li>
-                <li>Questions can be asked on a variety of technical topics</li>
-                <li>All team members should be present at the event. Absence of any team member would
-result in disqualification of the team.</li>
-                <li>Participants won’t be allowed to carry any electronic devices with them.</li>
-<li>Teams can be disqualified from the competition at the organizers' will. Reasons might
-include breaking the Competition Rules, breaking the discipline , or other unsporting
-behaviour.</li>
-                
 
+                <li>Questions can be asked on a variety of popular culture topics(eg. popular music,tv shows,movies etc.)</li>
+                <li>All team members should be present at the event.</li>
+                <li>Absence of any team member would result in disqualification of the team.</li>
+                <li>Participants won’t be allowed to carry any electronic devices with them.</li>
+                <li>Teams can be disqualified from the competition at the organizers' will. Reasons might include breaking the Competition Rules, breaking the discipline , or other unsporting behaviour.</li>
+                <li>Decision of the organizers in any case is final and irrevokable</li>
 
             </ol>
-
         </div>
 
-     
+
 
 
     </div>
