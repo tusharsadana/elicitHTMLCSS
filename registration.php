@@ -1,8 +1,6 @@
 <!doctype html>
 <html data-template="home" lang="en" class="has-no-js">
 
-<!-- Mirrored from designcanada.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jul 2018 21:15:31 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
         <script src="../www.google.com/recaptcha/apifef7.js?hl=en" async defer></script>
@@ -53,40 +51,40 @@
               <div class="container text-center">
                   <div class="col-md-8 col-md-offset-2" style="float:left">
                       <h1 style="color:white;font-weight:bold">REGISTRATIONS</h1>
-                      <form id="user_form" method="post" class="">
+                      <form id="user_form" method="post" class="" action = " php/register.php">
                           <div class="form-group row">
                               <div class="col">
-                                  <input type="text" class="form-control" name="first_name" value="" id="first_name"
+                                  <input type="text" class="form-control" name="first_name"  id="first_name"
                                          placeholder="First Name">
                               </div>
                               <div class="col">
-                                  <input type="text" name="last_name" class="form-control" value="" id="last_name"
+                                  <input type="text" name="last_name" class="form-control"  id="last_name"
                                          placeholder="Last Name">
                               </div>
                           </div>
                           <div class="form-group row">
                               <div class="col">
-                                  <input type="email" name="email" value="" id="email" placeholder="email"
+                                  <input type="email" name="email"  id="email" placeholder="email"
                                          class="form-control">
                               </div>
                               <div class="col">
-                                  <input type="tel" name="phone" value="" id="phone" placeholder="Phone Number"
+                                  <input type="tel" name="phone"  id="phone" placeholder="Phone Number"
                                          class="form-control">
                               </div>
                           </div>
                           <div class="form-group row">
                               <div class="col">
-                                  <input type="text" name="university" value="" placeholder="University" id="university"
+                                  <input type="text" name="university"  placeholder="University" id="university"
                                          class="form-control">
                               </div>
                               <div class="col">
-                                  <input type="text" name="reg" value="" id="reg" class="form-control"
+                                  <input type="text" name="reg"  id="reg" class="form-control"
                                          placeholder="College Registration Number">
                               </div>
                           </div>
                           <div class="form-group row">
                               <div class="col">
-                                  <select id="event_name" name="event_name" class="form-control">
+                                  <select id="event_name" name="event_name"  class="form-control">
                                       <option value="None Selected">Select Event</option>
                                       <option value="hackathon">Hackathon</option>
                                       <option value="codeathon">Codeathon</option>
@@ -139,18 +137,18 @@
                           <div class="form-group d-none" id="team0" name="team0">
                               <div class="row">
                                   <div class="col">
-                                      <input type="text" name="name0" id="name0" value=""
+                                      <input type="text" name="name0" id="name0" 
                                              placeholder="Team Member 1 - Name" class="form-control">
                                   </div>
                               </div>
                               <br>
                               <div class="row">
                                   <div class="col">
-                                      <input type="tel" name="phone0" id="phone0" value="" placeholder="Phone number"
+                                      <input type="tel" name="phone0" id="phone0"  placeholder="Phone number"
                                              class="form-control">
                                   </div>
                                   <div class="col">
-                                      <input type="email" name="email0" id="email0" value="" placeholder="Email"
+                                      <input type="email" name="email0" id="email0"  placeholder="Email"
                                              class="form-control">
                                   </div>
                               </div>
@@ -161,18 +159,18 @@
                           <div class="form-group d-none" id="team1" name="team1">
                               <div class="row">
                                   <div class="col">
-                                      <input type="text" name="name1" id="name1" value=""
+                                      <input type="text" name="name1" id="name1" 
                                              placeholder="Team Member 2 - Name" class="form-control">
                                   </div>
                               </div>
                               <br>
                               <div class="row">
                                   <div class="col">
-                                      <input type="tel" name="phone1" id="phone1" value="" placeholder="Phone number"
+                                      <input type="tel" name="phone1" id="phone1"  placeholder="Phone number"
                                              class="form-control">
                                   </div>
                                   <div class="col">
-                                      <input type="email" name="email1" id="email1" value="" placeholder="Email"
+                                      <input type="email" name="email1" id="email1"  placeholder="Email"
                                              class="form-control">
                                   </div>
                               </div>
@@ -184,18 +182,18 @@
                           <div class="form-group  d-none" id="team2" name="team2">
                               <div class="row">
                                   <div class="col">
-                                      <input type="text" name="name2" id="name2" value=""
+                                      <input type="text" name="name2" id="name2" 
                                              placeholder=" Team Member 3 - Name" class="form-control">
                                   </div>
                               </div>
                               <br>
                               <div class="row">
                                   <div class="col">
-                                      <input type="tel" name="phone2" id="phone2" value="" placeholder="Phone number"
+                                      <input type="tel" name="phone2" id="phone2"  placeholder="Phone number"
                                              class="form-control">
                                   </div>
                                   <div class="col">
-                                      <input type="email" name="email2" id="email2" value="" placeholder="Email"
+                                      <input type="email" name="email2" id="email2"  placeholder="Email"
                                              class="form-control">
                                   </div>
 
@@ -208,18 +206,18 @@
                           <div class="form-group  d-none" id="team3" name="team3">
                               <div class="row">
                                   <div class="col">
-                                      <input type="text" name="name3" id="name3" value=""
+                                      <input type="text" name="name3" id="name3" 
                                              placeholder="Team Member 4 - Name" class="form-control ">
                                   </div>
                               </div>
                               <br>
                               <div class="row">
                                   <div class="col">
-                                      <input type="tel" name="phone3" id="phone3" value="" placeholder="Phone number"
+                                      <input type="tel" name="phone3" id="phone3"  placeholder="Phone number"
                                              class="form-control">
                                   </div>
                                   <div class="col">
-                                      <input type="email" name="email3" id="email3" value="" placeholder="Email"
+                                      <input type="email" name="email3" id="email3"  placeholder="Email"
                                              class="form-control">
                                   </div>
 
@@ -254,5 +252,5 @@
       </div>
     </body>
 
-<!-- Mirrored from designcanada.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jul 2018 21:15:58 GMT -->
+
 </html>
